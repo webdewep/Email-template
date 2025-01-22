@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Email</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Общие стили для писем */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', Arial, sans-serif;
+        background-color: #ffffff;
+    }
+    p {
+    font-family: Arial, sans-serif; /* Добавляем шрифт Arial */
+    font-size: 14px;
+    line-height: 21px;
+    }
+    .email-wrapper {
+        width: 800px;
+        margin: 0 auto;
+        background-color: #ffffff;
+    }
+    table {
+        border-spacing: 0;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+    }
+    .logo {
+        padding: 20px;
+        text-align: center;
+    }
+    .banner-wrapper {
+        width: 700px;
+        margin: 10px auto 25px auto;
+        background-color: #eef6f5;
+    }
+    .banner {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 51px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .banner-text {
+        max-width: 50%;
+    }
+    .banner-text h1 {
+        font-size: 26px;
+        color: #000000;
+        line-height: 35.1px;
+        margin-bottom: 29px;
+    }
+    .banner-text .cta {
+        display: inline-block;
+        background-color: #ff5722;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Montserrat';
+        padding: 14px 32px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .banner-image {
+        max-width: 45%;
+    }
+    .content {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .content .button {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .content .button a {
+      display: inline-block;
+        background-color: #ff5722;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Montserrat';
+        padding: 14px 59px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .line {
+        width: 470px;
+        background-color: #D9DBDD;
+        margin: 30px auto 50px auto;
+    }
+    .double-buttons {
+        padding: 38px 58px;
+        text-align: center;
+        background-color: #ffffff;
+        border: 1px solid #D9DBDD;
+    }
+    .double-buttons p {
+        font-size: 14px;
+        margin: 0px 60px 25px;
+    }
+    .double-buttons a {
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Montserrat';
+        padding: 14px 0;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 700;
+        width: 228px;
+    }
+    .double-buttons .orange {
+        background-color: #ff5722;
+        color: #ffffff;
+        margin-right: 15px;
+    }
+    .double-buttons .white {
+        background-color: #ffffff;
+        color: #ff5722;
+        border: 2px solid #ff5722;
+    }
+    .footer {
+        background-color: #F4F5F7;
+        padding: 47px 20px;
+        margin-top: 50px;
+        font-size: 12px;
+        margin-top: 50px; /* Отступ сверху */
+        color: #777777;
+    }
+    .footer a {
+        color: #777777;
+        text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+    <div class="email-wrapper">
+        <table class="container">
+            <tr>
+                <td class="logo">
+                    <img src="LOGO.png" alt="Logo" width="100">
+                </td>
+            </tr>
+        </table>
+        <table class="banner-wrapper">
+            <tr>
+                <td>
+                    <div class="banner">
+                        <div class="banner-text">
+                            <h1>Это тестовый баннер тестового письма</h1>
+                            <a href="#" class="cta">Спасибо! Приступаю!</a>
+                        </div>
+                        <div class="banner-image">
+                            <img src="img.png" alt="Banner Image">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table class="container">
+            <tr>
+                <td class="content">
+                    <p>Привет, на связи тестовое письмо!</p>
+                    <p>Но явные признаки <b>победы институционализации</b> могут быть смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. </p>
+                    <div class="button" style="margin-top: 46px;">
+                        <a href="#">Читать статью</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                  <hr class="line" /> <!-- Используем <hr> для линии -->
+              </td>
+          </tr>
+          <tr>
+            <td>
+                <p style="margin-bottom: 20px; margin-top: 0;">Внезапно, диаграммы своей представляют собой «не что иное, как квинтэссенцию победы маркетинга над разумом» и должны быть проверены.</p>
+            </td>
+        </tr>
+            <tr>
+                <td class="double-buttons">
+                    <p>Разнообразный и богатый опыт говорит нам, что утреннее:</p>
+                    <a href="#" class="orange">Организовать</a>
+                    <a href="#" class="white">Велкам</a>
+                </td>
+            </tr>
+            <tr>
+              <td class="footer">
+                <img src="LOGO-footer.png" alt="Logo" width="62px" style="margin-bottom: 22px;">
+                <p style="margin-top: 0; margin-bottom:0;">Вы получили это письмо, так как подписались на рассылку на сайте.</p>
+                <p style="margin-top: 0; margin-bottom:0;">Если письмо выглядит некорректно, откройте <a href="#" style="text-decoration: underline;">web-версию письма</a></p>
+                <p>Если вы не хотите получать подобные письма, вы можете <a href="#" style="text-decoration: underline;">отписаться от рассылки</a></p>
+                <p style="margin-top: 20px;">&copy; Logo 2021. Все права защищены</p>
+            </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
