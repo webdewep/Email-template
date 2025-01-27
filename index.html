@@ -1,214 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru" xmlns:v="urn:schemas-microsoft-com:vml">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML Email</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    /* Общие стили для писем */
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Montserrat', Arial, sans-serif;
-        background-color: #ffffff;
-    }
-    p {
-    font-family: Arial, sans-serif; /* Добавляем шрифт Arial */
-    font-size: 14px;
-    line-height: 21px;
-    }
-    .email-wrapper {
-        width: 800px;
-        margin: 0 auto;
-        background-color: #ffffff;
-    }
-    table {
-        border-spacing: 0;
-        border-collapse: collapse;
-        width: 100%;
-    }
-    img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
-    .container {
-        max-width: 600px;
-        margin: 0 auto;
-        background-color: #ffffff;
-    }
-    .logo {
-        padding: 20px;
-        text-align: center;
-    }
-    .banner-wrapper {
-        width: 700px;
-        margin: 10px auto 25px auto;
-        background-color: #eef6f5;
-    }
-    .banner {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 51px 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .banner-text {
-        max-width: 50%;
-    }
-    .banner-text h1 {
-        font-size: 26px;
-        color: #000000;
-        line-height: 35.1px;
-        margin-bottom: 29px;
-    }
-    .banner-text .cta {
-        display: inline-block;
-        background-color: #ff5722;
-        color: #ffffff;
-        text-decoration: none;
-        font-family: 'Montserrat';
-        padding: 14px 32px;
-        border-radius: 5px;
-        font-size: 14px;
-        font-weight: 700;
-    }
-
-    .banner-image {
-        max-width: 45%;
-    }
-    .content {
-        font-size: 16px;
-        line-height: 1.5;
-    }
-    .content .button {
-        display: block;
-        text-align: center;
-        margin: 20px 0;
-    }
-    .content .button a {
-      display: inline-block;
-        background-color: #ff5722;
-        color: #ffffff;
-        text-decoration: none;
-        font-family: 'Montserrat';
-        padding: 14px 59px;
-        border-radius: 5px;
-        font-size: 14px;
-        font-weight: 700;
-    }
-    .line {
-        width: 470px;
-        background-color: #D9DBDD;
-        margin: 30px auto 50px auto;
-    }
-    .double-buttons {
-        padding: 38px 58px;
-        text-align: center;
-        background-color: #ffffff;
-        border: 1px solid #D9DBDD;
-    }
-    .double-buttons p {
-        font-size: 14px;
-        margin: 0px 60px 25px;
-    }
-    .double-buttons a {
-        display: inline-block;
-        text-decoration: none;
-        font-family: 'Montserrat';
-        padding: 14px 0;
-        border-radius: 5px;
-        font-size: 14px;
-        font-weight: 700;
-        width: 228px;
-    }
-    .double-buttons .orange {
-        background-color: #ff5722;
-        color: #ffffff;
-        margin-right: 15px;
-    }
-    .double-buttons .white {
-        background-color: #ffffff;
-        color: #ff5722;
-        border: 2px solid #ff5722;
-    }
-    .footer {
-        background-color: #F4F5F7;
-        padding: 47px 20px;
-        margin-top: 50px;
-        font-size: 12px;
-        margin-top: 50px; /* Отступ сверху */
-        color: #777777;
-    }
-    .footer a {
-        color: #777777;
-        text-decoration: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML Email</title>
+    <!--[if mso]>
+    <xml>
+        <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
 </head>
-<body>
-    <div class="email-wrapper">
-        <table class="container">
+<body style="margin:0; padding:0; background:#ffffff; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
+    <center>
+        <!--[if (gte mso 9)|(IE)]>
+        <table cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+        <tr>
+        <td>
+        <![endif]-->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="max-width:600px; width:100%; margin:0 auto;">
+            <!-- Header -->
             <tr>
-                <td class="logo">
-                    <img src="LOGO.png" alt="Logo" width="100">
+                <td style="padding:20px 0; text-align:center;">
+                    <img src="LOGO.png" alt="Logo" width="100" height="40" style="display:block; margin:0 auto; width:100px; height:40px;">
+                </td>
+            </tr>
+            
+            <!-- Banner -->
+            <tr>
+                <td style="padding:10px 0 25px 0; background:#eef6f5;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding:51px 20px; vertical-align:middle;">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td width="50%" style="vertical-align:middle; padding-right:15px;">
+                                            <h1 style="font-family:Arial, sans-serif; font-size:26px; line-height:35px; color:#000000; margin:0 0 29px 0;">
+                                                Это тестовый баннер тестового письма
+                                            </h1>
+                                            <!--[if mso]>
+                                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="#" style="width:180px; height:42px; v-text-anchor:middle;" arcsize="10%" strokecolor="#ff5722" fillcolor="#ff5722">
+                                                <v:textbox style="mso-fit-shape-to-text:t; color:#ffffff;" inset="0,0,0,0">
+                                                    <center style="font-size:14px; font-family:Arial,sans-serif; font-weight:700; color:#ffffff;">Спасибо! Приступаю!</center>
+                                                </v:textbox>
+                                            </v:roundrect>
+                                            <![endif]-->
+                                            <a href="#" style="display:inline-block; background:#ff5722; color:#ffffff; text-decoration:none; font-family:Arial,sans-serif; font-size:14px; font-weight:700; padding:14px 32px; border-radius:5px; mso-hide:all;">Спасибо! Приступаю!</a>
+                                        </td>
+                                        <td width="50%" style="vertical-align:middle; padding-left:15px;">
+                                            <img src="img.png" alt="Banner Image" width="270" height="180" style="display:block; width:100%; max-width:270px; height:auto;">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Content -->
+            <tr>
+                <td style="padding:20px; font-family:Arial,sans-serif; color:#333333; font-size:14px; line-height:21px;">
+                    <p style="margin:0 0 15px 0;">Привет, на связи тестовое письмо!</p>
+                    <p style="margin:0 0 25px 0;">Но явные признаки <strong>победы институционализации</strong> могут быть смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.</p>
+                    
+                    <!-- Button -->
+                    <div style="text-align:center; margin:46px 0 30px 0;">
+                        <!--[if mso]>
+                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="#" style="width:200px; height:42px; v-text-anchor:middle;" arcsize="10%" strokecolor="#ff5722" fillcolor="#ff5722">
+                            <v:textbox style="mso-fit-shape-to-text:t; color:#ffffff;" inset="0,0,0,0">
+                                <center style="font-size:14px; font-family:Arial,sans-serif; font-weight:700; color:#ffffff;">Читать статью</center>
+                            </v:textbox>
+                        </v:roundrect>
+                        <![endif]-->
+                        <a href="#" style="display:inline-block; background:#ff5722; color:#ffffff; text-decoration:none; font-family:Arial,sans-serif; font-size:14px; font-weight:700; padding:14px 59px; border-radius:5px; mso-hide:all;">Читать статью</a>
+                    </div>
+
+                    <!-- Line -->
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding:30px 0 50px 0;">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="470">
+                                    <tr>
+                                        <td style="border-bottom:1px solid #D9DBDD;"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <p style="margin:0 0 20px 0;">Внезапно, диаграммы своей представляют собой «не что иное, как квинтэссенцию победы маркетинга над разумом» и должны быть проверены.</p>
+
+                    <!-- Double Buttons -->
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border:1px solid #D9DBDD;">
+                        <tr>
+                            <td style="padding:38px 58px; text-align:center;">
+                                <p style="margin:0 0 25px 0; font-size:14px;">Разнообразный и богатый опыт говорит нам, что утреннее:</p>
+                                
+                                <!-- Orange Button -->
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="display:inline-table; margin-right:15px;">
+                                    <tr>
+                                        <td style="background:#ff5722; border-radius:5px;">
+                                            <a href="#" style="display:block; padding:14px 32px; font-family:Arial,sans-serif; font-size:14px; font-weight:700; color:#ffffff; text-decoration:none;">Организовать</a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <!-- White Button -->
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="display:inline-table;">
+                                    <tr>
+                                        <td style="background:#ffffff; border:2px solid #ff5722; border-radius:5px;">
+                                            <a href="#" style="display:block; padding:14px 32px; font-family:Arial,sans-serif; font-size:14px; font-weight:700; color:#ff5722; text-decoration:none;">Велкам</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+                <td style="background:#F4F5F7; padding:47px 20px; margin-top:50px; font-family:Arial,sans-serif; font-size:12px; color:#777777;">
+                    <img src="LOGO-footer.png" alt="Logo" width="62" height="30" style="display:block; margin:0 auto 22px auto; width:62px; height:30px;">
+                    <p style="margin:0 0 10px 0; text-align:center;">Вы получили это письмо, так как подписались на рассылку на сайте.</p>
+                    <p style="margin:0 0 10px 0; text-align:center;">Если письмо выглядит некорректно, <a href="#" style="color:#777777; text-decoration:underline;">откройте web-версию письма</a></p>
+                    <p style="margin:0; text-align:center;">Если вы не хотите получать подобные письма, вы можете <a href="#" style="color:#777777; text-decoration:underline;">отписаться от рассылки</a></p>
+                    <p style="margin:20px 0 0 0; text-align:center;">&copy; Logo 2021. Все права защищены</p>
                 </td>
             </tr>
         </table>
-        <table class="banner-wrapper">
-            <tr>
-                <td>
-                    <div class="banner">
-                        <div class="banner-text">
-                            <h1>Это тестовый баннер тестового письма</h1>
-                            <a href="#" class="cta">Спасибо! Приступаю!</a>
-                        </div>
-                        <div class="banner-image">
-                            <img src="img.png" alt="Banner Image">
-                        </div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <table class="container">
-            <tr>
-                <td class="content">
-                    <p>Привет, на связи тестовое письмо!</p>
-                    <p>Но явные признаки <b>победы институционализации</b> могут быть смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. </p>
-                    <div class="button" style="margin-top: 46px;">
-                        <a href="#">Читать статью</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-              <td>
-                  <hr class="line" /> <!-- Используем <hr> для линии -->
-              </td>
-          </tr>
-          <tr>
-            <td>
-                <p style="margin-bottom: 20px; margin-top: 0;">Внезапно, диаграммы своей представляют собой «не что иное, как квинтэссенцию победы маркетинга над разумом» и должны быть проверены.</p>
-            </td>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
         </tr>
-            <tr>
-                <td class="double-buttons">
-                    <p>Разнообразный и богатый опыт говорит нам, что утреннее:</p>
-                    <a href="#" class="orange">Организовать</a>
-                    <a href="#" class="white">Велкам</a>
-                </td>
-            </tr>
-            <tr style="margin-top: 50px; display: block;">
-              <td class="footer">
-                <img src="LOGO-footer.png" alt="Logo" width="62px" style="margin-bottom: 22px;">
-                <p style="margin-top: 0; margin-bottom:0;">Вы получили это письмо, так как подписались на рассылку на сайте.</p>
-                <p style="margin-top: 0; margin-bottom:0;">Если письмо выглядит некорректно, откройте <a href="#" style="text-decoration: underline;">web-версию письма</a></p>
-                <p>Если вы не хотите получать подобные письма, вы можете <a href="#" style="text-decoration: underline;">отписаться от рассылки</a></p>
-                <p style="margin-top: 20px;">&copy; Logo 2021. Все права защищены</p>
-            </td>
-            </tr>
         </table>
-    </div>
+        <![endif]-->
+    </center>
+
+    <!-- Mobile Styles -->
+    <style type="text/css">
+        @media screen and (max-width: 600px) {
+            table[class="responsive-table"] {
+                width: 100%!important;
+            }
+            img {
+                height: auto!important;
+                max-width: 100%!important;
+            }
+            .mobile-padding {
+                padding-left: 20px!important;
+                padding-right: 20px!important;
+            }
+            .stack-column {
+                display: block!important;
+                width: 100%!important;
+                padding: 10px 0!important;
+            }
+        }
+    </style>
 </body>
 </html>
